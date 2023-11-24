@@ -18,7 +18,7 @@
       <el-form-item label="标签状态"
                     prop="status">
         <el-radio-group v-model="dataForm.status">
-          <el-radio :label="1">正常</el-radio>
+          <el-radio :label="1">启用</el-radio>
           <el-radio :label="0">禁用</el-radio>
         </el-radio-group>
       </el-form-item>
@@ -31,7 +31,7 @@
         </el-radio-group>
       </el-form-item>
 
-      <el-form-item label="排序"
+      <el-form-item label="标签排序"
                     prop="seq">
         <!-- <el-input v-model="dataForm.seq"></el-input> -->
         <el-input-number v-model="dataForm.seq"
