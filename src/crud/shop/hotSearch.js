@@ -20,17 +20,20 @@ export const tableOption = {
     {
       label: '热搜内容',
       prop: 'content',
-      search: true
+      search: true,
+      width: 400
     },
     {
       label: '录入时间',
       prop: 'recDate',
-      sortable: true
+      sortable: true,
+      width: 180
     },
     {
       label: '热搜排序',
       prop: 'seq',
-      sortable: true
+      sortable: true,
+      width: 100
     },
     {
       label: '启用状态',
@@ -38,6 +41,7 @@ export const tableOption = {
       type: 'select',
       slot: true,
       search: true,
+      width: 100,
       dicData: [
         {
           label: '禁用',

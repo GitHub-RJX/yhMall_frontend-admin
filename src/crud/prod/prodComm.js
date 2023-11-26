@@ -12,7 +12,7 @@ export const tableOption = {
   delBtn: false,
   column: [
     {
-      label: '商品名称',
+      label: '产品名称',
       prop: 'prodName',
       width: '200',
       search: true

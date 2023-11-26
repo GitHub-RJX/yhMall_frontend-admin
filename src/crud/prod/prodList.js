@@ -21,17 +21,17 @@ export const tableOption = {
   },
   column: [{
     width: 240,
-    label: '产品名字',
+    label: '产品名称',
     prop: 'prodName',
     search: true
   }, {
-    label: '商品原价',
+    label: '产品原价',
     prop: 'oriPrice'
   }, {
-    label: '商品现价',
+    label: '产品现价',
     prop: 'price'
   }, {
-    label: '商品库存',
+    label: '产品库存',
     prop: 'totalStocks'
   }, {
     label: '产品图片',

@@ -38,7 +38,7 @@
                          :min="0"
                          label="排序号"></el-input-number>
       </el-form-item>
-      <el-form-item label="启用状态"
+      <el-form-item label="分类状态"
                     size="mini"
                     prop="status">
         <el-radio-group v-model="dataForm.status">
