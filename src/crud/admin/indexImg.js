@@ -29,7 +29,7 @@ export const tableOption = {
     label: '展示顺序',
     prop: 'seq'
   }, {
-    label: '可用状态',
+    label: '启用状态',
     prop: 'status',
     search: true,
     type: 'select',

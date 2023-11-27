@@ -37,9 +37,8 @@ export const tableOption = {
     label: '产品图片',
     prop: 'pic',
     type: 'upload',
-    width: 180,
+    width: 120,
     listType: 'picture-img'
-
   }, {
     label: '产品状态',
     prop: 'status',

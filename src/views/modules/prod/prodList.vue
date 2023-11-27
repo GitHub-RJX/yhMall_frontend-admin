@@ -43,7 +43,6 @@
                    size="small"
                    v-if="isAuth('prod:prod:delete')"
                    @click="deleteHandle(scope.row.prodId)">删除</el-button>
-
       </template>
     </avue-crud>
   </div>
