@@ -130,7 +130,7 @@ export default {
         deliveryTemplateId: null
       },
       tags: [],
-      resourcesUrl: process.env.VUE_APP_RESOURCES_URL
+      // resourcesUrl: process.env.VUE_APP_RESOURCES_URL
     }
   },
   components: {

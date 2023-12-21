@@ -20,13 +20,13 @@ export const tableOption = {
     value: 'value'
   },
   column: [{
-    width: 240,
     label: '产品名称',
     prop: 'prodName',
+    width: 280,
     search: true
   }, {
     label: '产品原价',
-    prop: 'oriPrice'
+    prop: 'oriPrice',
   }, {
     label: '产品现价',
     prop: 'price'
@@ -37,7 +37,7 @@ export const tableOption = {
     label: '产品图片',
     prop: 'pic',
     type: 'upload',
-    width: 120,
+    width: 180,
     listType: 'picture-img'
   }, {
     label: '产品状态',

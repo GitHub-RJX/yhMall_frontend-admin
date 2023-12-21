@@ -68,7 +68,7 @@ export default {
       dataListSelections: [],
       dataListLoading: false,
       tableOption: tableOption,
-      resourcesUrl: process.env.VUE_APP_RESOURCES_URL
+      // resourcesUrl: process.env.VUE_APP_RESOURCES_URL
     }
   },
   methods: {

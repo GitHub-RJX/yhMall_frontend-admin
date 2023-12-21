@@ -18,14 +18,12 @@
 
         <el-form-item label="评价图片"
                       prop="userName">
-          <div v-if="dataForm.pics==null || dataForm.pics.length>0">
+          <div v-if="dataForm.pics==null || dataForm.pics.length==0">
             无
           </div>
-          <img max-width="100%"
+          <img width="100px"
                v-else
-               v-for="item in dataForm.pics"
-               :key="item"
-               :src="dialogImageUrl + item">
+               :src="dataForm.pics" />
         </el-form-item>
 
         <el-form-item label="评价时间"
